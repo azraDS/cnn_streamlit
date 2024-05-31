@@ -6,8 +6,8 @@ import numpy as np
 # Modeli yukleyin
 model = load_model('trained_model8480.h5')
 # Siniflandirma kategorileri
-categories = ["Clothes", "Groceries", "Health", "Home",
-              "Kitchen", "Office, Toys, Games", "Pet Supplies", "Sports", "Tools"]
+categories = ["Clothes, Shoes, Jewellery", "Groceries, Food", "Health, Households", "Home, Decorations",
+              "Kitchen", "Office, Toys, Games", "Pet Supplies", "Sports, Outdoors", "Tools"]
 # Resmi hazirlama fonksiyonu
 def prepare_image(image, target_size):
     if image.mode != "RGB":
