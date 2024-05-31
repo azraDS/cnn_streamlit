@@ -7,7 +7,7 @@ import numpy as np
 model = load_model('trained_model8480.h5')
 # Siniflandirma kategorileri
 categories = ["Clothes", "Groceries", "Health", "Home",
-              "Kitchen", "Office", "Pet Supplies", "Sports", "Tools"]
+              "Kitchen", "Office, Toys, Games", "Pet Supplies", "Sports", "Tools"]
 # Resmi hazirlama fonksiyonu
 def prepare_image(image, target_size):
     if image.mode != "RGB":
