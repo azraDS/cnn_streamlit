@@ -18,7 +18,7 @@ def prepare_image(image, target_size):
     image = image / 255.0
     return image
 # Streamlit arayuzu
-st.title("Resim Siniflandirma Uygulamasi")
+st.title("Urun Kategorisi Tahmini")
 uploaded_file = st.file_uploader(
     "Bir resim yukleyin", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
